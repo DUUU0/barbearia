@@ -99,10 +99,15 @@
     padding-top: 100px;
   }
 
-  .cta h1 {
-    font-size: 1.5rem;
+  .cta {
     width: 100%;
-    text-align: inherit;
+  }
+
+  .cta h1 {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: left;
+   
   }
 
   .scheduling {
