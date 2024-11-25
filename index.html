@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia</title>
+  <!-- JQUERY-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- JS -->
+  <script src="src/js/index.js" defer></script>
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/4a72f1922a.js" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/styles/styles.css">
+  <link rel="stylesheet" href="src/styles/header.css">
+  <link rel="stylesheet" href="src/styles/home.css">
+  <link rel="stylesheet" href="src/styles/services.css">
+  <link rel="stylesheet" href="src/styles/location.css">
+  <link rel="stylesheet" href="src/styles/footer.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <i class="fa-solid fa-scissors" id="nav_logo"> Barbearia</i>
+
+      <ul class="nav-list">
+        <li class="nav-item active">
+          <a href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#services">Serviços</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#location">Localização</a>
+        </li>
+      </ul>
+
+      <div class="social-media-buttons">
+        <a href="">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+
+      <button class="mobile-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <nav class="nav-mobile">
+      <ul class="nav-list-mobile">
+        <li class="nav-item-mobile">
+          <a href="#home">Home</a>
+        </li>
+
+        <li class="nav-item-mobile">
+          <a href="#services">Serviços</a>
+        </li>
+
+        <li class="nav-item-mobile">
+          <a href="#location">Localização</a>
+        </li>
+      </ul>
+
+      <div class="social-media-buttons-mobile">
+        <a href="">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="home" id="home">
+      <div class="cta">
+        <h1>Não perca tempo - Seu estilo perfeito está a <span>um clique</span> de distância!</h1>
+
+        <div class="scheduling">
+
+          <a href="tel:+5544997133936" class="phone">
+            <button class="btn-phone">
+              <i class="fa-solid fa-phone"></i>
+            </button>
+            (33) 99192-2314
+          </a>
+
+          <button class="link-scheduling">
+            <a href="">Agendar</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="src/images/tesoura-e-pente.png" alt="tesoura-e-pente">
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="title">Serviços</h2>
+
+      <div class="options">
+        <div class="service">
+          <h3 class="service-title">Cabelo</h3>
+
+          <img src="src/images/cabelo-masculino-curto.png" alt="">
+
+          <div class="service-price">
+            <h4>R$30,00</h4>
+            <button class="service-btn">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="service">
+          <h3 class="service-title">Barba</h3>
+
+          <img src="src/images/barba.png" alt="">
+
+          <div class="service-price">
+            <h4>R$30,00</h4>
+            <button class="service-btn">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="service">
+          <h3 class="service-title">Sobrancelha</h3>
+
+          <img src="src/images/sobrancelha.png" alt="">
+
+          <div class="service-price">
+            <h4>R$30,00</h4>
+            <button class="service-btn">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <h2 class="title">Localização</h2>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1273.862813534141!2d-49.272371160815226!3d-25.43732289725196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce46df5ad031b%3A0x1648f3f2190db61a!2sSanta%20Casa%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1732568256681!5m2!1spt-BR!2sbr"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-items">
+      <span> &copy Barbearia, 2024 - todos os direitos reservados</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>

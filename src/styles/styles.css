@@ -1,0 +1,22 @@
+:root {
+  --black: #1E1E1E;
+  --white: #ffffff;
+  --red: #FD0B0F;
+  --gray: #808080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgba(217, 217, 217, 0.9);
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+}

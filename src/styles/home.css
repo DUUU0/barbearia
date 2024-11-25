@@ -1,0 +1,112 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  padding-top: 140px;
+}
+
+.cta {
+  width: 50%;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.cta span {
+  color: var(--red);
+}
+
+.scheduling {
+  display: flex;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.scheduling .link-scheduling {
+  background-color: var(--red);
+  border: none;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.scheduling .link-scheduling a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.scheduling .link-scheduling:hover {
+  background-color: #E00A0D;
+}
+
+.banner {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.banner img {
+  width: 50%;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--black);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px 14px;
+  font-weight: 500;
+}
+
+.phone .btn-phone {
+  color: white;
+  background-color: var(--red);
+  border: none;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1192px) {
+  .home {
+    padding-top: 200px;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .cta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home {
+    padding-top: 100px;
+  }
+
+  .cta h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: inherit;
+  }
+
+  .scheduling {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
