@@ -99,19 +99,23 @@
     padding-top: 100px;
   }
 
-  .cta {
-    width: 100%;
-  }
-
   .cta h1 {
     font-size: 1.3rem;
     width: 100%;
-    text-align: left;
-   
+    text-align: center;
+
   }
 
   .scheduling {
     flex-direction: column;
     gap: 50px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .cta h1 {
+    font-size: 1.2rem;
+    text-align: initial;
+
   }
 }
